@@ -1,0 +1,11 @@
+export PATH="/Users/vohoangtuit/DATA/DEVELOP/AndroidStudio/android_sdk/platform-tools"3
+
+1// nếu có thay đổi api_provider.dart thì run comment line để update api_provider.g.dart
+- export PATH="/Users/vohoangtuit/DATA/DEVELOP/AndroidStudio/flutter_sdk/flutter/bin:$PATH" // change path
+- export PATH="/Users/admin/VO_HOANG_TU/dev/AndroidStudio/sdk/flutter/bin:$PATH"
+
+todo update file pub
+> flutter clean
+> flutter pub get
+> cd ios
+> pod update || pod install // todo if error run:  'pod deintegrate' before
