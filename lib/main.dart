@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sfmap/screens/earth_globe_screen.dart';
 import 'package:sfmap/screens/vietnam_map_screen.dart';
 import 'package:sfmap/screens/world_map_screen.dart';
 import 'package:sfmap/screens/sf_map_screen.dart';
@@ -59,6 +60,9 @@ class _MyHomePageState extends State<MyHomePage> {
             }),
             _button('VietNam Map',(){
               addScreen(const VietnamMapScreen());
+            }),
+            _button('Earth Map 3D',(){
+              addScreen(const EarthGlobeScreen());
             }),
           ],
         ),
